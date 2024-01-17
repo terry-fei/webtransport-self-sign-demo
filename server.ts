@@ -63,6 +63,10 @@ async function main() {
 
   h3Server.startServer();
 
+  console.log(
+    'open "http://localhost:4343" in your browser, and open the console to see the logs.'
+  );
+
   let isKilled: boolean = false;
 
   function handle(e: any) {
