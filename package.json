@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "tsx watch server.ts"
+    "start": "tsx watch server.ts"
   },
   "dependencies": {
     "@fails-components/webtransport": "^1.0.8",
